@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:clock="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <com.t3h.customview.CustomClock
+      android:layout_width="400dp"
+      clock:color_strock="@color/colorPrimaryDark"
+      clock:width_strock_circle="20dp"
+      clock:x_title="120dp"
+      clock:y_title="120dp"
+      clock:text_size_title="24sp"
+      android:layout_height="200dp" />
+
+</RelativeLayout>
